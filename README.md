@@ -1,10 +1,10 @@
-# aws-nyc311-krame154
-Bucket root:
-s3://cmse492-krame154-nyc311-533267250538-us-east-1-an/nyc_311.zip
+# NYC DATA 
 
-Complaints data:
-s3://raw/complaints.csv
 
-Agencies data:
-s3://raw/agencies.csv
-
+## SUMMARY : 
+AWS SageMaker + S3 + tabular data, mainly using the NYC 311 dataset.
+##S3 Bucket Structure
+s3://cmse492-<your-msu-netid>-nyc311/
+└── raw/
+    ├── complaints.csv
+    └── agencies.csv
