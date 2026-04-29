@@ -1,3 +1,20 @@
+## SUMMARY
+AWS SageMaker + S3 + tabular data, mainly using the NYC 311 dataset.
+
+## S3 Bucket Structure
+
+s3://cmse492-krame154-nyc311/
+└── raw/
+    ├── complaints.csv
+    └── agencies.csv
+
+## Stakeholder Context
+
+A product manager wants to understand how serious ticket escalations are across NYC 311 service requests.
+
+## Business Question
+
+How serious is the ticket escalation issue, and what trends or patterns can help identify high-risk complaints?
 # NYC DATA 
 
 
